@@ -1,0 +1,179 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>Servlet2.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>PlaceanOrderServlet</servlet-name>
+		<servlet-class>Servlet2.PlaceanOrderServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>ConfirmOrder</servlet-name>
+		<servlet-class>Servlet2.ConfirmOrder</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>PlaceOrderServlet</servlet-name>
+		<servlet-class>Servlet2.PlaceOrderServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>NewPlaceOrderServlet</servlet-name>
+		<servlet-class>Servlet2.PlaceOrderServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>RegSer</servlet-name>
+		<servlet-class>Servlet2.RegSer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdminServ</servlet-name>
+		<display-name>AdminServ</display-name>
+		<description></description>
+		<servlet-class>Servlet2.AdminServ</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BillServlet</servlet-name>
+		<display-name>BillServlet</display-name>
+		<description></description>
+		<servlet-class>Servlet2.BillServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserManagementServlet</servlet-name>
+		<display-name>UserManagementServlet</display-name>
+		<description></description>
+		<servlet-class>Servlet2.UserManagementServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>updateServlet</servlet-name>
+		<display-name>updateServlet</display-name>
+		<description></description>
+		<servlet-class>Servlet2.updateServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>addProductServlet</servlet-name>
+		<display-name>addProductServlet</display-name>
+		<description></description>
+		<servlet-class>Servlet2.addProductServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>DeleteProductServ</servlet-name>
+		<display-name>DeleteProductServ</display-name>
+		<description></description>
+		<servlet-class>Servlet2.DeleteProductServ</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FetchProductServlet</servlet-name>
+		<display-name>FetchProductServlet</display-name>
+		<description></description>
+		<servlet-class>Servlet2.FetchProductServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Order</servlet-name>
+		<display-name>Order</display-name>
+		<description></description>
+		<servlet-class>Model.Order</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>OrderDao</servlet-name>
+		<display-name>OrderDao</display-name>
+		<description></description>
+		<servlet-class>Dao.OrderDao</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>OrderServlet</servlet-name>
+		<display-name>OrderServlet</display-name>
+		<description></description>
+		<servlet-class>Servlet2.OrderServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>PlaceanOrderServlet</servlet-name>
+		<url-pattern>/PlaceanOrderServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-mapping>
+		<servlet-name>ConfirmOrder</servlet-name>
+		<url-pattern>/ConfirmOrder</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>PlaceOrderServlet</servlet-name>
+		<url-pattern>/PlaceOrderServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>NewPlaceOrderServlet</servlet-name>
+		<url-pattern>/NewPlaceOrderServlet</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet-mapping>
+		<servlet-name>RegSer</servlet-name>
+		<url-pattern>/RegSer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminServ</servlet-name>
+		<url-pattern>/AdminServ</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BillServlet</servlet-name>
+		<url-pattern>/BillServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserManagementServlet</servlet-name>
+		<url-pattern>/UserManagementServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>updateServlet</servlet-name>
+		<url-pattern>/updateServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>addProductServlet</servlet-name>
+		<url-pattern>/addProductServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>DeleteProductServ</servlet-name>
+		<url-pattern>/DeleteProductServ</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FetchProductServlet</servlet-name>
+		<url-pattern>/FetchProductServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Order</servlet-name>
+		<url-pattern>/Order</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderDao</servlet-name>
+		<url-pattern>/OrderDao</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/OrderServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+</web-app>
